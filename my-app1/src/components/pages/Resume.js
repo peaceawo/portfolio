@@ -2,8 +2,8 @@ import React from "react";
 
 export const Resume = () => {
   return (
-    <div className="main-resume">
-      <div class="py-3">
+    <div className="col-sm-12 main-resume">
+      <div class="py-5">
         <h2 class="">Resume</h2>
       </div>
       <div className="row resume">
@@ -73,10 +73,30 @@ export const Resume = () => {
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="col-12 skill-wrapper">
-          <h4 className="skilltitle">Technical Skills</h4>
-        </div>
+      <div className="col-sm-12 row">
+        <h4 className="educationtitile">
+          <span className="education-icon">
+            <i class="fa fa-cogs"></i>
+          </span>{" "}
+          TECHNICAL SKILLS
+        </h4>
+      </div>
+      <div className="technical-skills">
+        <h5>HTML</h5>
+        <h5>CSS</h5>
+        <h5>BOOTSTRAP</h5>
+        <h5>HANDLEBARS</h5>
+        <h5>JAVASCRIPT</h5>
+        <h5>JQUERY</h5>
+        <h5>NODE.JS</h5>
+        <h5>REACT.JS</h5>
+        <h5>GIT</h5>
+        <h5>HEROKU</h5>
+        <h5>MONGODB</h5>
+        <h5>FIREBASE</h5>
+        <h5>EXPRESS</h5>
+        <h5>API</h5>
+        <h5>AJAX</h5>
       </div>
       <br />
       <br />
@@ -94,6 +114,9 @@ export const Resume = () => {
           </a>
         </button>
       </div>
+      <br />
+      <br />
+      <br />
     </div>
   );
 };

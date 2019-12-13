@@ -121,9 +121,11 @@ h1 {
 
 /* portfolio*/
 .portfolio-main {
-  background: #ffffff;
-  box-shadow: 5px 10px 30px rgb(58, 57, 57);
+  left: 13%;
+  width: 100%;
   height: 100vh;
+  box-shadow: 5px 10px 30px rgb(58, 57, 57);
+  position: fixed;
 }
 
 .box9 .box-content,
@@ -342,8 +344,9 @@ h1 {
   box-shadow: 5px 10px 30px rgb(58, 57, 57);
   height: 100%vh;
   width: 100%;
-  left: 13%;
-  position: fixed;
+  left: 3%;
+  width: 100%;
+  overflow: hidden;
 }
 .resume {
   overflow: hidden;
@@ -358,7 +361,7 @@ h1 {
   height: 95%;
   background: #ffffff;
   position: absolute;
-  left: 8%;
+  left: 11%;
   margin-top: 18px 5px;
 }
 
@@ -401,37 +404,18 @@ h1 {
 }
 
 /* Skills*/
-.skilltitle {
-  margin: 70px 0px 30px 50px;
+.technical-skills h5 {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+  border-style: outset;
+  border-radius: 30%;
+  padding: 20px;
 }
 
-.progress-one {
-  margin: 0px 50px;
-}
-.progress {
-  height: 0.4rem;
-  font-size: 0.75em;
-  line-height: 8em;
-  border-radius: 0.25rem;
-  overflow: hidden;
-  border: 1px solid #89cb82;
-
-  margin-bottom: 1em;
-}
-.progress-tittle {
-  color: #888;
-  font-size: 0.85em;
-  text-transform: uppercase;
-  margin-bottom: 0.5em;
-  letter-spacing: 1px;
-  line-height: inherit;
-}
-.progress-bar {
-  background: #89cb82;
-}
 .resume-button {
   position: relative;
-  left: 25%;
+  left: 40%;
 }
 .button {
   border: 2px solid #334454;
