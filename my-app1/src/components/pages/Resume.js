@@ -91,7 +91,6 @@ export const Resume = () => {
         <h5>JAVASCRIPT</h5>
         <h5>JQUERY</h5>
         <h5>NODE.JS</h5>
-
         <h5>GIT</h5>
         <h5>HEROKU</h5>
         <h5>MONGODB</h5>

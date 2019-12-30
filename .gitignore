@@ -1,4 +1,8 @@
 node_modules
 .DS_Store
+<<<<<<< HEAD
 .env
 CHANGELOG.md
+=======
+.env
+>>>>>>> ecee49cd60ff815ad78304f6eb2893fa34663a52
