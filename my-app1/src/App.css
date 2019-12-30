@@ -96,7 +96,6 @@ ul {
 
 /*image*/
 .home-image {
-  background: url("./img/mesunset.jpeg") no-repeat center center/cover;
   position: fixed;
   left: 13%;
   width: 100%;
@@ -121,11 +120,14 @@ h1 {
 
 /* portfolio*/
 .portfolio-main {
-  left: 13%;
-  width: 100%;
-  height: 100vh;
+  background: #ffffff;
+  border-left: 1px;
   box-shadow: 5px 10px 30px rgb(58, 57, 57);
-  position: fixed;
+  height: 100%vh;
+  max-width: 100%;
+  overflow-x: hidden;
+  position: absolute;
+  left: 13%;
 }
 
 .box9 .box-content,
@@ -230,11 +232,11 @@ h1 {
 }
 
 /*-- contact --*/
-.contact-border {
+/* .contact-border {
   border-left: 1px;
   box-shadow: 5px 10px 30px rgb(58, 57, 57);
   height: 100%vh;
-}
+} */
 .contact-form label {
   font-weight: 600;
   letter-spacing: 1px;
@@ -270,6 +272,12 @@ h1 {
   -webkit-transition: all 0.4s ease 0s;
   background: linear-gradient(0deg, #fff, #808080);
   height: 100%vh;
+  border-left: 1px;
+  max-width: 100%;
+  overflow-x: hidden;
+  width: 100%;
+  left: 3%;
+  overflow: hidden;
 }
 .contact-info li {
   display: inline-block;

@@ -49,23 +49,23 @@ export const Resume = () => {
               </span>{" "}
               EDUCATION
             </h4>
-            <div class="content">
-              <p class="date">December 2019</p>
-              <h4 class="work-name">Coding Bootcamp</h4>
-              <i class="company-name">University of Denver</i>
+            <div className="content">
+              <p className="date">December 2019</p>
+              <h4 className="work-name">Coding Bootcamp</h4>
+              <i className="company-name">University of Denver</i>
             </div>
-            <div class="content">
-              <p class="date">May 2014</p>
-              <h4 class="work-name">
+            <div className="content">
+              <p className="date">May 2014</p>
+              <h4 className="work-name">
                 Mathematics - <p>Actuarial Science</p>
               </h4>
-              <i class="company-name">Colorado State University</i>
+              <i className="company-name">Colorado State University</i>
             </div>
-            <div class="content">
-              <p class="date">Fall 2019</p>
+            <div className="content">
+              <p className="date">Fall 2019</p>
               <i>
                 Study Abroad:
-                <span class="Abroad">
+                <span className="Abroad">
                   <i>International College of Beijing</i>
                 </span>
               </i>
@@ -76,12 +76,14 @@ export const Resume = () => {
       <div className="col-sm-12 row">
         <h4 className="educationtitile">
           <span className="education-icon">
-            <i class="fa fa-cogs"></i>
+            <i className="fa fa-cogs"></i>
           </span>{" "}
           TECHNICAL SKILLS
         </h4>
       </div>
       <div className="technical-skills">
+        <h5>REACT.JS</h5>
+        <h5>ANGULAR</h5>
         <h5>HTML</h5>
         <h5>CSS</h5>
         <h5>BOOTSTRAP</h5>
@@ -89,7 +91,7 @@ export const Resume = () => {
         <h5>JAVASCRIPT</h5>
         <h5>JQUERY</h5>
         <h5>NODE.JS</h5>
-        <h5>REACT.JS</h5>
+
         <h5>GIT</h5>
         <h5>HEROKU</h5>
         <h5>MONGODB</h5>
@@ -102,12 +104,12 @@ export const Resume = () => {
       <br />
       <br />
       <div className="resume-button">
-        <button type="download" class="button">
+        <button type="download" className="button">
           <span>
-            <i class="fa fa-download"></i>
+            <i className="fa fa-download"></i>
           </span>
           <a
-            href="./peaceawo/Documents/Peace-Akpai-Resume.pdf"
+            href="my-app1/public/resume/resume.pdf"
             download="Peace-Akpai-Resume"
           >
             DOWNLOAD

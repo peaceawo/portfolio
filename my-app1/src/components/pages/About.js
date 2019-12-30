@@ -5,7 +5,7 @@ export const About = () => {
     <div className="main">
       <div className="card">
         <img
-          src="/img/profile.jpeg"
+          src="../img/profile.jpeg"
           className="card-img-top"
           alt="profile pic"
         />
